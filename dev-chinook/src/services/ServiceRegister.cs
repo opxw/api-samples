@@ -1,4 +1,5 @@
-﻿using Chinook.Db.Dev.DataContext;
+﻿// Copyright (c) 2026 - opx
+using Chinook.Db.Dev.DataContext;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Chinook.Service.Dev

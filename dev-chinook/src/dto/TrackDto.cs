@@ -1,4 +1,5 @@
-﻿namespace Chinook.Dto.Dev
+﻿// Copyright (c) 2026 - opx
+namespace Chinook.Dto.Dev
 {
     public class TrackDto
     {

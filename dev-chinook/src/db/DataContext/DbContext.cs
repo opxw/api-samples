@@ -1,4 +1,5 @@
-﻿using Chinook.Db.Dev.Domain;
+﻿// Copyright (c) 2026 - opx
+using Chinook.Db.Dev.Domain;
 using LinqToDB;
 using MySqlConnector;
 using Opx.Api.Infrastructure.Database;

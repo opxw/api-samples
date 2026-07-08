@@ -1,3 +1,4 @@
+﻿// Copyright (c) 2026 - opx
 using Chinook.Db.Dev.DataContext;
 using Chinook.Service.Dev;
 using Opx.Api.Web;
@@ -7,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.UseOpxWebApi();
+builder.Services.UseOpxWebApi(options => options.GenerateDocs());
 builder.Services.RegisterServices();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();

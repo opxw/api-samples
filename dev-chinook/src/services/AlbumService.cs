@@ -1,3 +1,4 @@
+﻿// Copyright (c) 2026 - opx
 using Chinook.Db.Dev.DataContext;
 using Opx.Api.Infrastructure.Service;
 

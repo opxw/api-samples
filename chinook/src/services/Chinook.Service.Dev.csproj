@@ -1,0 +1,15 @@
+﻿<!-- Copyright (c) 2026 - opx -->
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\db\Chinook.Db.Dev.csproj" />
+    <ProjectReference Include="..\dto\Chinook.Dto.Dev.csproj" />
+  </ItemGroup>
+
+</Project>

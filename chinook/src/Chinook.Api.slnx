@@ -1,0 +1,15 @@
+﻿<!-- Copyright (c) 2026 - opx -->
+<Solution>
+  <Folder Name="/db/">
+    <Project Path="db/Chinook.Db.Dev.csproj" />
+  </Folder>
+  <Folder Name="/dto/">
+    <Project Path="dto/Chinook.Dto.Dev.csproj" />
+  </Folder>
+  <Folder Name="/presentation/">
+    <Project Path="presentation/Chinook.Api.Dev.csproj" />
+  </Folder>
+  <Folder Name="/services/">
+    <Project Path="services/Chinook.Service.Dev.csproj" />
+  </Folder>
+</Solution>

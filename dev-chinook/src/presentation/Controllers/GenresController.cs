@@ -1,3 +1,4 @@
+﻿// Copyright (c) 2026 - opx
 using Chinook.Service.Dev;
 using Microsoft.AspNetCore.Mvc;
 

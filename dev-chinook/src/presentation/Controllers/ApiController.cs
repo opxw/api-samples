@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿// Copyright (c) 2026 - opx
+using Microsoft.AspNetCore.Mvc;
 using Opx.Api.Web.Common;
 using Opx.Api.Web.Handlers;
 

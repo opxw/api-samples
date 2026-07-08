@@ -1,4 +1,5 @@
-﻿using LinqToDB.Mapping;
+﻿// Copyright (c) 2026 - opx
+using LinqToDB.Mapping;
 
 namespace Chinook.Db.Dev.Domain
 {
