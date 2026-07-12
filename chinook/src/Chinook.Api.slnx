@@ -9,6 +9,9 @@
   <Folder Name="/presentation/">
     <Project Path="presentation/Chinook.Api.Dev.csproj" />
   </Folder>
+  <Folder Name="/references/">
+    <Project Path="../../../api-web/src/Opx.Api.Web.csproj" />
+  </Folder>
   <Folder Name="/services/">
     <Project Path="services/Chinook.Service.Dev.csproj" />
   </Folder>

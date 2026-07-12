@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-builder.Services.UseOpxWebApi();
+builder.Services.AddOpxApiWeb(builder.Configuration);
 builder.Services.RegisterServices();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
@@ -33,11 +33,14 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseOpxApiProtection();
+
 app.UseAuthorization();
 
 app.UseOpxWebApiHandler();
 app.UseOpxWebApiStatusCodePages();
 
 app.MapControllers();
+app.GenerateOpxApiDocs();
 
 app.Run();
