@@ -1,0 +1,34 @@
+{
+  "Routes": [
+    {
+      "Enabled": true,
+      "Alias": "/_sys/audit/a1",
+      "Target": "/opx/logs/access",
+      "Methods": [ "GET" ]
+    },
+    {
+      "Enabled": true,
+      "Alias": "/_sys/audit/s1",
+      "Target": "/opx/logs/security-issues",
+      "Methods": [ "GET" ]
+    },
+    {
+      "Enabled": true,
+      "Alias": "/gw/music/artists",
+      "Target": "/api/artists",
+      "Methods": [ "GET" ]
+    },
+    {
+      "Enabled": true,
+      "Alias": "/gw/music/artists/{id}",
+      "Target": "/api/artists/{id}",
+      "Methods": [ "GET" ]
+    },
+    {
+      "Enabled": true,
+      "Alias": "/gw/music/artists/with-albums",
+      "Target": "/api/artists/with-albums",
+      "Methods": [ "GET" ]
+    }
+  ]
+}

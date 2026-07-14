@@ -1,0 +1,202 @@
+﻿{
+  "GeneratedAt": "2026-07-13T20:43:20.889275+07:00",
+  "Endpoints": [
+    {
+      "Controller": "Albums",
+      "Action": "GetAlbums",
+      "Method": "GET",
+      "Route": "/api/albums",
+      "Parameters": [],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "Albums",
+      "Action": "GetAlbum",
+      "Method": "GET",
+      "Route": "/api/albums/{id:int}",
+      "Parameters": [
+        {
+          "Name": "id",
+          "Source": "Path",
+          "Type": "Int32",
+          "Required": true,
+          "Properties": []
+        }
+      ],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "Artists",
+      "Action": "GetArtists",
+      "Method": "GET",
+      "Route": "/api/artists",
+      "Parameters": [],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "Artists",
+      "Action": "GetArtist",
+      "Method": "GET",
+      "Route": "/api/artists/{id:int}",
+      "Parameters": [
+        {
+          "Name": "id",
+          "Source": "Path",
+          "Type": "Int32",
+          "Required": true,
+          "Properties": []
+        }
+      ],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "Artists",
+      "Action": "GetArtistsWithAlbums",
+      "Method": "GET",
+      "Route": "/api/artists/with-albums",
+      "Parameters": [],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "Genres",
+      "Action": "GetGenres",
+      "Method": "GET",
+      "Route": "/api/genres",
+      "Parameters": [],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "Genres",
+      "Action": "GetGenre",
+      "Method": "GET",
+      "Route": "/api/genres/{id:int}",
+      "Parameters": [
+        {
+          "Name": "id",
+          "Source": "Path",
+          "Type": "Int32",
+          "Required": true,
+          "Properties": []
+        }
+      ],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "OpxLogs",
+      "Action": "Access",
+      "Method": "GET",
+      "Route": "/opx/logs/access",
+      "Parameters": [
+        {
+          "Name": "date",
+          "Source": "Query",
+          "Type": "String",
+          "Required": false,
+          "Properties": []
+        },
+        {
+          "Name": "take",
+          "Source": "Query",
+          "Type": "Int32",
+          "Required": true,
+          "Properties": []
+        }
+      ],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "OpxLogs",
+      "Action": "SecurityIssues",
+      "Method": "GET",
+      "Route": "/opx/logs/security-issues",
+      "Parameters": [
+        {
+          "Name": "date",
+          "Source": "Query",
+          "Type": "String",
+          "Required": false,
+          "Properties": []
+        },
+        {
+          "Name": "take",
+          "Source": "Query",
+          "Type": "Int32",
+          "Required": true,
+          "Properties": []
+        }
+      ],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "OpxProtection",
+      "Action": "Health",
+      "Method": "GET",
+      "Route": "/opx/protection/health",
+      "Parameters": [],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    },
+    {
+      "Controller": "OpxProtection",
+      "Action": "Metrics",
+      "Method": "GET",
+      "Route": "/opx/protection/metrics",
+      "Parameters": [],
+      "Output": [
+        {
+          "StatusCode": 200,
+          "Type": "void"
+        }
+      ]
+    }
+  ]
+}
