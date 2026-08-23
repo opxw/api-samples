@@ -1,6 +1,6 @@
 ﻿# Opx API Docs
 
-Generated at: 2026-07-19 17:00:34 +07:00
+Generated at: 2026-07-27 14:10:42 +07:00
 
 ## GET /api/albums
 
